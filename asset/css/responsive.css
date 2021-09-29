@@ -1,0 +1,51 @@
+
+/*PC 1380 */
+@media (min-width: 75em) and (max-width:86.25em){
+    .control-top{
+        z-index: 99999;
+    }
+}
+
+
+/* PC small */
+
+ @media (min-width: 64em) and (max-width:74em){
+
+    .control-top{
+        z-index: 99999;
+    }
+    .header__second-img {
+        width: 230px;
+        height: 26px;
+    }
+    .header__second-item{
+        margin: 0;
+    }
+    .header-search__control{
+        display: flex !important;
+    }
+    .slide-search__input{
+        width: 550px;
+    }
+    .slider-container{
+        display:none;
+    }
+ }
+
+ /* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+
+
+    
+
+}
+
+/* Table and mobile */
+@media (max-width:63.9375em){
+
+}
+
+/* Mobile  */
+@media (max-width: 46.1875em){
+
+}
