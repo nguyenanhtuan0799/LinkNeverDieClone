@@ -34,9 +34,25 @@
 
 /* Table and mobile */
 @media (max-width: 63.9375em) {
+  .footer-fb,
   .header__second-list,
   .slide-search__bottom {
     display: none;
+  }
+  .slider-container {
+    display: none;
+  }
+  .footer-list__item-img {
+    width: 200px;
+  }
+  .footer-list__item-head {
+    font-size: 1.6rem;
+  }
+  .footer-list__item-body p {
+    margin: 0 40px 0 6px;
+  }
+  .footer-list__item-fanpage {
+    margin: 0;
   }
 }
 
